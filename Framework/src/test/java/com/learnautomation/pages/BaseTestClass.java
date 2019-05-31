@@ -73,7 +73,7 @@ public class BaseTestClass {
 		Reporter.log("--------------------------------TEST FAILED !--------------------------------------------", true);
 		}
 		
-		else if(result.getStatus()== ITestResult.FAILURE){
+		else if(result.getStatus()== ITestResult.SUCCESS){
 			
 			Helper.captureScreenshot(driver);
 			

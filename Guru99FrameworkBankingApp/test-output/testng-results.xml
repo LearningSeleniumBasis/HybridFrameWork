@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Preparing to Start Test]]>
+    </line>
+    <line>
+      <![CDATA[Preparation is done]]>
+    </line>
+    <line>
+      <![CDATA[Lunching the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser is up and running.......started Guru99Bank]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to End]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------TEST PASSED--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[**********************Final Report created***********************]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12724" started-at="2019-05-30T17:53:48Z" finished-at="2019-05-30T17:54:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12724" started-at="2019-05-30T17:53:48Z" finished-at="2019-05-30T17:54:01Z">
+      <class name="com.Guru99.BankingApp.Tests.Guru99BankLoginTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginTest@5c7fa833]" name="setUpSuite" is-config="true" duration-ms="1040" started-at="2019-05-30T23:23:47Z" finished-at="2019-05-30T23:23:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Preparing to Start Test]]>
+            </line>
+            <line>
+              <![CDATA[Preparation is done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginTest@5c7fa833]" name="setUp" is-config="true" duration-ms="7047" started-at="2019-05-30T23:23:48Z" finished-at="2019-05-30T23:23:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Lunching the Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser is up and running.......started Guru99Bank]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginTest@5c7fa833]" name="verifyLogin" duration-ms="3711" started-at="2019-05-30T23:23:56Z" finished-at="2019-05-30T23:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginTest@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="1020" started-at="2019-05-30T23:23:59Z" finished-at="2019-05-30T23:24:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=Guru99BankLoginTest.verifyLogin()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginTest@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to End]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------TEST PASSED--------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[**********************Final Report created***********************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginTest@5c7fa833]" name="closeBrowser" is-config="true" duration-ms="892" started-at="2019-05-30T23:24:00Z" finished-at="2019-05-30T23:24:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Guru99.BankingApp.Tests.Guru99BankLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
