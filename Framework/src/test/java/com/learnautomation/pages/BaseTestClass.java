@@ -67,15 +67,12 @@ public class BaseTestClass {
 		Reporter.log("Test is about to End", true);
 		
 		if(result.getStatus()== ITestResult.FAILURE){
-		Helper.captureScreenshot(driver);
 		
 		log.fail("Test has Failed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
 		Reporter.log("--------------------------------TEST FAILED !--------------------------------------------", true);
 		}
 		
 		else if(result.getStatus()== ITestResult.SUCCESS){
-			
-			Helper.captureScreenshot(driver);
 			
 			log.pass("Test has Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
 			Reporter.log("--------------------------------TEST PASSED--------------------------------------------", true);

@@ -19,7 +19,7 @@ public class Helper {
 		
 		File des = new File("./ScreenShots/Facebook" +getCurrentDateTime()+".png");
 		
-		String scrnshtPath ="./ScreenShots/Facebook" +getCurrentDateTime()+".png";
+		String scrnshtPath =System.getProperty("user.dir")+"/ScreenShots/Facebook" +getCurrentDateTime()+".png";
 		
 		try {
 			FileHandler.copy(src,des);
