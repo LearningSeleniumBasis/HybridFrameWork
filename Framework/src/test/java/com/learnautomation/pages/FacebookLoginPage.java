@@ -14,7 +14,7 @@ public class FacebookLoginPage {
 		this.driver= ldriver;
 	}
 	
-	@FindBy(how=How.ID, using="6email")
+	@FindBy(how=How.ID, using="email")
 	WebElement email_or_phone;
 	
 	@FindBy(how=How.ID, using="pass")

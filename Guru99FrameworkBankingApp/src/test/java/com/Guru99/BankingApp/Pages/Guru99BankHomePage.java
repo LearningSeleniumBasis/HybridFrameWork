@@ -31,7 +31,13 @@ public class Guru99BankHomePage {
 		userID.sendKeys(userName);
 		pswd.sendKeys(password);
 		submitButton.click();
-		System.out.println("Page Title: "+driver.getTitle());
+		try{
+		System.out.println("Page Title: "+driver.getTitle());}
+		catch(Exception e){
+		String message = driver.switchTo().alert().getText();
+		System.out.println("Invalid login entered: "+ message);
+		driver.switchTo().alert().dismiss();
+		}
 	}
 	
 

@@ -7,8 +7,6 @@
         <methods>
           <include name="setUp"/>
           <include name="loginToApp"/>
-          <include name="tearDownMethod"/>
-          <include name="closeBrowser"/>
           <include name="setUpSuite"/>
         </methods>
       </class> <!-- com.learnautomation.testcases.AppLoginTest -->

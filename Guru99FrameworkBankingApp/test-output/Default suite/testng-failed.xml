@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.Guru99.BankingApp.Tests.Guru99BankLoginTest">
+      <class name="com.Guru99.BankingApp.Tests.Guru99BankLoginFailedTest">
         <methods>
-          <include name="verifyLogin"/>
+          <include name="verifyLoginFailure"/>
           <include name="closeBrowser"/>
           <include name="setUpSuite"/>
           <include name="tearDownMethod"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.Guru99.BankingApp.Tests.Guru99BankLoginTest -->
+      </class> <!-- com.Guru99.BankingApp.Tests.Guru99BankLoginFailedTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

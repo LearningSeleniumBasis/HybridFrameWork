@@ -6,8 +6,7 @@ import com.learnautomation.pages.BaseTestClass;
 import com.learnautomation.pages.FacebookLoginPage;
 
 public class AppLoginTest extends BaseTestClass{
-		
-	@Test	
+	@Test
 	void loginToApp()
 	{
 		
