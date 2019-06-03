@@ -4,7 +4,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import com.Guru99.BankingApp.Pages.BaseTestClass;
-import com.Guru99.BankingApp.Pages.Guru99BankHomePage;
+import com.Guru99.BankingApp.Pages.Guru99BankLoginPage;
 
 public class Guru99BankLoginTest extends BaseTestClass {
   @Test
@@ -12,7 +12,7 @@ public class Guru99BankLoginTest extends BaseTestClass {
 	  
 	    logger = report.createTest("LoginToGuru99BankTest");
 		
-		Guru99BankHomePage g99Bank= PageFactory.initElements(driver, Guru99BankHomePage.class);
+		Guru99BankLoginPage g99Bank= PageFactory.initElements(driver, Guru99BankLoginPage.class);
 		
 		logger.info("Lunched Guru99Bank App");
 		
