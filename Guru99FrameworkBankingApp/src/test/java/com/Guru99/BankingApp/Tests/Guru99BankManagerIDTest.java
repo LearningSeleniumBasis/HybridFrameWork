@@ -12,7 +12,7 @@ public class Guru99BankManagerIDTest extends BaseTestClass {
 	 @Test
 	  public void verifyManagerID() {
 		  
-		    logger = report.createTest("LoginToGuru99BankTest");
+		    logger = report.createTest("VerifyManagerID");
 			
 			Guru99BankLoginPage g99Bank= PageFactory.initElements(driver, Guru99BankLoginPage.class);
 			
