@@ -29,12 +29,12 @@
       <![CDATA[]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21086" started-at="2019-06-03T14:51:33Z" finished-at="2019-06-03T14:51:54Z">
+  <suite name="Default suite" duration-ms="41145" started-at="2020-03-24T19:13:39Z" finished-at="2020-03-24T19:14:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21086" started-at="2019-06-03T14:51:33Z" finished-at="2019-06-03T14:51:54Z">
-      <class name="com.Guru99.BankingApp.Tests.Guru99BankManagerIDTest">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankManagerIDTest@5c7fa833]" name="setUpSuite" is-config="true" duration-ms="1279" started-at="2019-06-03T20:21:31Z" finished-at="2019-06-03T20:21:33Z">
+    <test name="Default test" duration-ms="41145" started-at="2020-03-24T19:13:39Z" finished-at="2020-03-24T19:14:20Z">
+      <class name="com.Guru99.BankingApp.Tests.Guru99BankLoginFailedTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginFailedTest@4b9e13df]" name="setUpSuite" is-config="true" duration-ms="384" started-at="2020-03-25T00:43:39Z" finished-at="2020-03-25T00:43:39Z">
           <reporter-output>
             <line>
               <![CDATA[Preparing to Start Test]]>
@@ -44,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankManagerIDTest@5c7fa833]" name="setUp" is-config="true" duration-ms="14590" started-at="2019-06-03T20:21:33Z" finished-at="2019-06-03T20:21:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginFailedTest@4b9e13df]" name="setUp" is-config="true" duration-ms="30289" started-at="2020-03-25T00:43:39Z" finished-at="2020-03-25T00:44:09Z">
           <reporter-output>
             <line>
               <![CDATA[Lunching the Browser]]>
@@ -54,15 +54,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyManagerID()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankManagerIDTest@5c7fa833]" name="verifyManagerID" duration-ms="3836" started-at="2019-06-03T20:21:47Z" finished-at="2019-06-03T20:21:51Z">
+        <test-method status="PASS" signature="verifyLoginFailure()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginFailedTest@4b9e13df]" name="verifyLoginFailure" duration-ms="3964" started-at="2020-03-25T00:44:09Z" finished-at="2020-03-25T00:44:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyManagerID -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankManagerIDTest@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="1406" started-at="2019-06-03T20:21:51Z" finished-at="2019-06-03T20:21:52Z">
+        </test-method> <!-- verifyLoginFailure -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginFailedTest@4b9e13df]" name="tearDownMethod" is-config="true" duration-ms="5965" started-at="2020-03-25T00:44:13Z" finished-at="2020-03-25T00:44:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyManagerID status=SUCCESS method=Guru99BankManagerIDTest.verifyManagerID()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankManagerIDTest@5c7fa833] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginFailure status=SUCCESS method=Guru99BankLoginFailedTest.verifyLoginFailure()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginFailedTest@4b9e13df] output={null}]]]>
               </value>
             </param>
           </params>
@@ -78,7 +78,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankManagerIDTest@5c7fa833]" name="closeBrowser" is-config="true" duration-ms="1224" started-at="2019-06-03T20:21:52Z" finished-at="2019-06-03T20:21:54Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Guru99.BankingApp.Tests.Guru99BankLoginFailedTest@4b9e13df]" name="closeBrowser" is-config="true" duration-ms="917" started-at="2020-03-25T00:44:19Z" finished-at="2020-03-25T00:44:20Z">
           <reporter-output>
             <line>
               <![CDATA[]]>
@@ -88,7 +88,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.Guru99.BankingApp.Tests.Guru99BankManagerIDTest -->
+      </class> <!-- com.Guru99.BankingApp.Tests.Guru99BankLoginFailedTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
