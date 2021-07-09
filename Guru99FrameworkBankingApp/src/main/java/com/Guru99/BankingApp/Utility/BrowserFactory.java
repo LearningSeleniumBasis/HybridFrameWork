@@ -1,4 +1,4 @@
-package com.learnautomation.utility;
+package com.Guru99.BankingApp.Utility;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -45,10 +45,10 @@ public class BrowserFactory {
 			driver= new InternetExplorerDriver();
 		}
 		
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		return driver;
 	}
 	

@@ -16,11 +16,16 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
+
 @tag
 Feature: Login Feature with more data 
   I want to use this template for my feature file
 
-  @tag1
+Background:
+Given Browser
+Then check browser lunched!
+
+  @SmokeTest
   Scenario: Test Facebook Login with more no of data.
   
     Given  Open Chrome, start the "https://facebook.com" application.

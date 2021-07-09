@@ -2,6 +2,7 @@ package com.learnautomation.cucumber;
 
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,6 +13,15 @@ import cucumber.api.java.en.When;
 
 public class FacebookSmokeTest {
    WebDriver driver;
+   @Given("^Browser$")
+	public void checkBrowser(){
+		System.out.println("Chrome Browser");
+		
+	}
+	@Then("^check browser lunched!$")
+	public void check_browser_lunched() throws Throwable {
+		System.out.println("Chrome Browser Lunched...Success");
+	}
    
    @Given("^Open Chrome, start the \"([^\"]*)\" application\\.$")
    public void open_Chrome_start_the(String app) throws Throwable {
@@ -21,6 +31,7 @@ public class FacebookSmokeTest {
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get(app);
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	   
 	}
 	
@@ -36,6 +47,7 @@ public class FacebookSmokeTest {
 	public void user_should_be_able_to_login() throws Throwable {
 		
 		driver.findElement(By.xpath("//*[@type='submit'][@value='Log In']")).click();
+		Assert.assertTrue(true);
 		driver.quit();
 	}
 }
