@@ -13,7 +13,7 @@ public class Guru99BankHomePage {
 		this.driver= ldriver;
 	}
 	
-	@FindBy(how=How.XPATH, using= "//*[contains(text(), 'Manger Id')]")
+	@FindBy(how=How.XPATH, using= "//*[contains(text(), 'Manager Id')]")
 	WebElement managerID;
 	
 	public void checkManagerID(){
